@@ -1,0 +1,24 @@
+{
+  "name": "learn-v8",
+  "version": "1.0.0",
+  "description": "D8 是一个非常有用的调试工具，你可以把它看成是 debug for V8 的缩写。我们可以使用 d8 来查看 V8 在执行 JavaScript 过程中的各种中间数据，比如作用域、AST、字节码、优化的二进制代码、垃圾回收的状态，还可以使用 d8 提供的私有 API 查看一些内部信息。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parrot-designa/learn-v8.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parrot-designa/learn-v8/issues"
+  },
+  "homepage": "https://github.com/parrot-designa/learn-v8#readme",
+  "devDependencies": {
+    "jsvu": "^2.4.0"
+  }
+}
