@@ -1,0 +1,16 @@
+[generating bytecode for function: ]
+--- AST ---
+FUNC at 0
+. KIND 0
+. LITERAL ID 0
+. SUSPEND COUNT 0
+. NAME ""
+. INFERRED NAME ""
+. DECLS
+. . VARIABLE (0x7f7ee3050450) (mode = LET, assigned = true) "name"
+. BLOCK NOCOMPLETIONS at -1
+. . EXPRESSION STATEMENT at 11
+. . . kInit at 11
+. . . . VAR PROXY context[3] (0x7f7ee3050450) (mode = LET, assigned = true) "name"
+. . . . LITERAL "hello"
+

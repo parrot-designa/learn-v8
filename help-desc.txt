@@ -1,0 +1,39 @@
+1. --experimental 选项
+
+表示V8运行时启用了实验性特性。默认不开启实验特性。
+
+2. --abort-on-contradictory-flags 选项
+
+禁止标志或含义相互覆盖。 默认开启。
+
+3.  --exit-on-contradictory-flags 选项
+
+在相互矛盾的标志上退出并返回代码0。 默认不开启。
+
+4.  --allow-overwriting-for-next-flag 选项
+
+临时禁用标志矛盾以允许只覆盖下一个标志 。 默认不开启。
+
+5. --use-strict 
+
+强制使用严格模式。 默认不开启。
+
+6. --trace-temporal
+
+追踪temporal类型数据。默认不开启。
+
+7. --harmony
+
+启用所有已完成的和声功能
+
+8. --harmony-shipping
+
+跳过所有已完成的和声功能
+
+9. --js-staging
+
+允许所有stage阶段的js语法
+
+10. --js-shipping
+
+跳过所有stage阶段的js语法

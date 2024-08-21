@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": ""
+    "build:help": "v8-debug -help > help.txt",
+    "build:bc":"v8-debug --print-bytecode ./index.js> bytecode.txt",
+    "build:ast":"v8-debug --print-ast ./index.js> ast.txt",
+    "build:pc":"v8-debug --print-code ./index.js> pc.txt"
   },
   "repository": {
     "type": "git",
